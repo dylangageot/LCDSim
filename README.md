@@ -22,11 +22,10 @@ The library is fully emulating the HD44780, except for the reading-in and functi
 
 ## How to use it ?
 
-You will have to download these libraries (don't forget LCDSim) :
+You will have to download the SDL 1.2 library (and LCDSim) :
 - [SDL version 1.2.15](https://www.libsdl.org/download-1.2.php)
-- [SDL_image for SDL version 1.2](https://www.libsdl.org/projects/SDL_image/release-1.2.html)
 
-Once it's done, refer thoses libraries to your compiler and add lcdsim.h and lcdsim.c into your project. Don't forget to include LCDSim to your program by this way :
+Once it's done, refer this library to your compiler and add lcdsim.h and lcdsim.c into your project. Don't forget to include LCDSim to your program by this way :
 
 ```c
 #include "lcdsim.h"
