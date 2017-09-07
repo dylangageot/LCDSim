@@ -133,6 +133,7 @@ void LCDSim_Instruction(LCDSim *self, Uint16 instruction) {
                 for (i = 0; i < 80; i++)
                     self->mcu.DDRAM[i] = 0x20;
                 self->mcu.DDRAM_counter = 0;
+                self->mcu.DDRAM_display = 0;
                 break;
         }
     }
