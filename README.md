@@ -60,4 +60,4 @@ int main (int argc, char** argv) {
 
 ### Result
 
-[https://image.noelshack.com/fichiers/2017/36/4/1504796313-output-yqaqe7.gif]()
+![result](https://image.noelshack.com/fichiers/2017/36/4/1504796313-output-yqaqe7.gif)
