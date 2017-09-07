@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL/SDL.h>
-#include <SDL/SDL_image.h>
 #include "lcdsim.h"
 
 LCDSim* LCDSim_Create(SDL_Surface *screen, int x, int y) {
@@ -197,7 +196,7 @@ void GraphicUnit_Init(GraphicUnit *self) {
     SDL_FillRect(self->color[0],NULL,SDL_MapRGB(self->color[0]->format, 0, 0, 0));
     SDL_FillRect(self->color[1],NULL,SDL_MapRGB(self->color[1]->format, 125, 159, 50));
     self->temp_screen = SDL_CreateRGBSurface(SDL_HWSURFACE, 331, 149, 32, 0, 0, 0, 0);
-    self->image = IMG_Load("lcd_layout.png");
+    self->image = SDL_LoadBMP("lcd_layout.bmp");
     Pixel_Init(self->pixel);
 
 }
