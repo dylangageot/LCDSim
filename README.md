@@ -4,7 +4,7 @@ LCDSim is a library written in C that allow you to emulate a HD44780 LCD 16x2 di
 
 ## Code example
 
-'''c
+```c
 #include "lcdsim.h"
 
 int main (int argc, char** argv) {
@@ -54,4 +54,4 @@ int main (int argc, char** argv) {
     return EXIT_SUCCESS;
 
 }
-'''
+```
