@@ -4,7 +4,6 @@
 // lcdsim.h, by Dylan GAGEOT
 
 #include <SDL/SDL.h>
-#include <SDL/SDL_image.h>
 
 #define CLEAR_DISPLAY        0x01
 #define LCD_HOME             0x02
