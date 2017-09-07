@@ -1,3 +1,5 @@
+// example.c, by Dylan GAGEOT
+
 #include "lcdsim.h"
 
 int main (int argc, char** argv) {
