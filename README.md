@@ -31,3 +31,8 @@ Once it's done, refer thoses libraries to your compiler and add lcdsim.h and lcd
 ```c
 #include "lcdsim.h"
 ```
+
+## Bibliography
+
+- [LCD 16x2 image](http://paulvollmer.net/FritzingParts/parts/lcd-GDM1602K.html)
+- [Instruction Set](https://mil.ufl.edu/3744/docs/lcdmanual/commands.html)
