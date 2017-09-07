@@ -36,7 +36,7 @@ void LCDSim_Draw(LCDSim *self) {
 void LCDSim_Instruction(LCDSim *self, Uint16 instruction) {
 
     Uint8 i, n, m;
-    if (instruction & 0x0200) {
+    if (instruction & 0x0100) {
         if (self->mcu.RAM_current == CGR) {
             n = self->mcu.CGRAM_counter / 8;
             m = self->mcu.CGRAM_counter % 8;
@@ -262,7 +262,7 @@ void Pixel_Draw(GraphicUnit *self) {
 }
 
 void LCD_PutChar(LCDSim *self, char car) {
-	LCDSim_Instruction(self, 0x200 | car);
+	LCDSim_Instruction(self, 0x0100 | car);
 }
 
 void LCD_PutS(LCDSim *self, char *s) {
