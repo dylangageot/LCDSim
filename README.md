@@ -5,12 +5,12 @@ LCDSim is a library written in C that allow you to emulate a HD44780 LCD 16x2 di
 ## Example
 
 ```c
-    // Sample from example.c, available in this repository
-    LCD_State(lcd, 1, 1, 1);    // Display ON, Cursor ON, Blink ON
-    LCD_SetCursor(lcd, 0, 3);   // Set the cursor position to 1st line, 4th column
-    LCD_PutS(lcd, "Hello,");    // Display the text "Hello,"
-    LCD_SetCursor(lcd, 1, 5);   // Set the cursor position to 2nd line, 6th column
-    LCD_PutS(lcd, "GitHub!");   // Display the text "GitHub!"
+// Sample from example.c, available in this repository
+LCD_State(lcd, 1, 1, 1);    // Display ON, Cursor ON, Blink ON
+LCD_SetCursor(lcd, 0, 3);   // Set the cursor position to 1st line, 4th column
+LCD_PutS(lcd, "Hello,");    // Display the text "Hello,"
+LCD_SetCursor(lcd, 1, 5);   // Set the cursor position to 2nd line, 6th column
+LCD_PutS(lcd, "GitHub!");   // Display the text "GitHub!"
 ```
 And there is what we get :
 
