@@ -32,6 +32,11 @@ Once it's done, refer thoses libraries to your compiler and add lcdsim.h and lcd
 #include "lcdsim.h"
 ```
 
+## Wiki
+
+- [CGROM organization](https://github.com/dylangageot/LCDSim/wiki/CGROM-organization)
+- [Functions](https://github.com/dylangageot/LCDSim/wiki/Functions)
+
 ## Bibliography
 
 - [LCD 16x2 image](http://paulvollmer.net/FritzingParts/parts/lcd-GDM1602K.html)
