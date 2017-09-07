@@ -1,6 +1,8 @@
 #ifndef LCDSIM_H_INCLUDED
 #define LCDSIM_H_INCLUDED
 
+// lcdsim.h, by Dylan GAGEOT
+
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
 
