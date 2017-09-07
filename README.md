@@ -14,7 +14,8 @@ LCD_PutS(lcd, "GitHub!");   // Display the text "GitHub!"
 ```
 And there is what we get :
 
-![result](https://image.noelshack.com/fichiers/2017/36/4/1504796313-output-yqaqe7.gif)
+![result_win](https://image.noelshack.com/fichiers/2017/36/4/1504796313-output-yqaqe7.gif)
+![result_ubu](https://image.noelshack.com/fichiers/2017/36/4/1504810251-output-u7utir.gif)
 
 ## Features
 
