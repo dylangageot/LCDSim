@@ -2,6 +2,10 @@
 
 LCDSim is a library written in C that allow you to emulate a HD44780 LCD 16x2 display on your computer. The display function is possible with the use of the SDL (with some extra lib that allow loading of image).
 
+## Disclaimer
+
+This library is using SDL1.2.
+
 ## Example
 
 ```c
@@ -21,7 +25,7 @@ And there is what we get :
 
 The library is fully emulating the HD44780, except for the reading-in and function set instruction, features that felt useless in our case.
 
-## How to use it ?
+## How to use it?
 
 You will have to download the SDL 1.2 library (and LCDSim) :
 - [SDL version 1.2.15](https://www.libsdl.org/download-1.2.php)
